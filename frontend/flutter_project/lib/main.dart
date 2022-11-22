@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hack_app/pages/home_page.dart';
 import 'package:http/http.dart' as http;
 
 void main() {
@@ -21,25 +22,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Clever Tech Memes',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        home: Scaffold(
-            appBar: AppBar(
-                centerTitle: true, title: const Text('Clever Tech Memes')),
-            body: Center(
-                child: Column(
-              children: [
-                Padding(
-                    padding: const EdgeInsets.all(0.0),
-                    child: const Text('Welcome to the Clever Tech Memes!')),
-                Padding(
-                  padding: const EdgeInsets.all(0.0),
-                  child: ElevatedButton(
-                      onPressed: buttonPressed, child: Text('Click!')),
-                )
-              ],
-            ))));
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
+    );
   }
 }
