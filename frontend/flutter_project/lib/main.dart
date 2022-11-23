@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'package:flutter/material.dart';
 import 'package:hack_app/pages/home_page.dart';
 import 'package:http/http.dart' as http;
