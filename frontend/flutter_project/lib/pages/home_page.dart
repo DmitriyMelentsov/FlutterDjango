@@ -45,11 +45,12 @@ class HomePage extends StatelessWidget {
                             'Вход',
                             style: TextStyle(
                               fontSize: 20,
+                              fontFamily: 'Gilroy',
                               fontWeight: FontWeight.w700,
                             ),
                           ),
                           const SizedBox(
-                            height: 29,
+                            height: 22,
                           ),
                           Container(
                             alignment: const Alignment(-0.75, -1),
